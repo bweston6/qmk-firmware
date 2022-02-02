@@ -36,3 +36,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Use the lily version to get the Lily58 logo instead of the qmk logo
 #define OLED_FONT_H "lib/glcdfont_lily.c"
+
+/* Optimisations */
+
+// disabling locking key support
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+
+// disabling oneshots
+#define  NO_ACTION_ONESHOT
+
+// disabling tapping keys
+#define NO_ACTION_TAPPING
+
+// disabling audio
+#define NO_MUSIC_MODE
+
+// limiting to 8 layers
+#define LAYER_STATE_8BIT
