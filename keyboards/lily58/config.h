@@ -47,7 +47,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define  NO_ACTION_ONESHOT
 
 // disabling tapping keys
-#define NO_ACTION_TAPPING
+// #define NO_ACTION_TAPPING
 
 // disabling audio
 #define NO_MUSIC_MODE
