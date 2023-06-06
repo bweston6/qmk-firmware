@@ -17,6 +17,7 @@
 #pragma once
 
 #include <stdbool.h>
+#include QMK_KEYBOARD_H
 
 #include "keycodes.h"
 
